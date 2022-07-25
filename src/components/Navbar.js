@@ -34,12 +34,7 @@ function NavBar() {
       className={navColour ? 'sticky' : 'navbar'}>
       <Container>
         <Navbar.Brand href='/' style={{ width: '50%', textAlign: 'start' }}>
-          <img
-            src={logo}
-            className='img-fluid logo'
-            alt='brand'
-            style={{ width: '200px', height: '100%' }}
-          />
+          <img src={logo} className='img-fluid logo' alt='brand' />
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls='responsive-navbar-nav'
